@@ -5,7 +5,7 @@ import { AgregarComponent } from './pages/agregar/agregar.component';
 import { EditarComponent } from './pages/editar/editar.component';
 import { ListadoComponent } from './pages/listado/listado.component';
 import { ProductoComponent } from './pages/producto/producto.component';
-
+//We could redirect to the login or maybe to the local directory listado
 const routes: Routes = [
   {
     path: '',
@@ -14,7 +14,7 @@ const routes: Routes = [
       { path: 'editar', component: EditarComponent },
       { path: 'listado', component: ListadoComponent },
       { path: 'producto', component: ProductoComponent },
-      //We could redirect to the login or maybe to the local directory listado
+
       { path: '**', redirectTo: 'listado' },
     ],
   },
