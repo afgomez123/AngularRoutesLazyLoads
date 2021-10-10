@@ -14,13 +14,19 @@ const routes: Routes = [
         path: 'editar',
         component: EditarComponent,
       },
-      { path: 'listado', component: ListadoComponent },
+      {
+        path: 'listado',
+        component: ListadoComponent,
+      },
       {
         path: 'nuevo',
         component: NuevoComponent,
       },
-      { path: 'usuarios', component: UsuariosComponent },
-      { path: '**', redirectTo: 'listado' },
+      {
+        path: 'usuarios',
+        component: UsuariosComponent,
+      },
+      { path: '**', redirectTo: 'nuevo' },
     ],
   },
 ];

@@ -11,11 +11,10 @@ import { UsuariosComponent } from './pages/usuarios/usuarios.component';
 @NgModule({
   declarations: [
     EditarComponent,
-    ListadoComponent,
     NuevoComponent,
+    ListadoComponent,
     UsuariosComponent,
   ],
-  //Add the component related with system compoment
   imports: [CommonModule, UsuariosRoutingModule],
 })
 export class UsuariosModule {}
